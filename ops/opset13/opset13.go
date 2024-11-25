@@ -43,6 +43,7 @@ var operators13 = map[string]func() ops.Operator{
 	"PRelu":           newPRelu,
 	"ReduceMax":       newReduceMax,
 	"ReduceMin":       newReduceMin,
+	"ReduceMean":      newReduceMean,
 	"Relu":            newRelu,
 	"Reshape":         newReshape,
 	"RNN":             newRNN,

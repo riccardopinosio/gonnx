@@ -205,6 +205,11 @@ func TestGetOperator(t *testing.T) {
 			nil,
 		},
 		{
+			"ReduceMean",
+			newReduceMean(),
+			nil,
+		},
+		{
 			"Relu",
 			newRelu(),
 			nil,
